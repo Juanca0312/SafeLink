@@ -18,6 +18,10 @@ final class AuthenticationRepository {
         authenticationFirebaseDatasource.createNewUser(email: email, password: password, completion: completion)
     }
     
+    func login(email: String, password: String, completion: @escaping (Result<User, Error>) -> Void) {
+        authenticationFirebaseDatasource.login(email: email, password: password, completion: completion)
+    }
+    
     func getCurrentUser() -> User? {
         authenticationFirebaseDatasource.getCurrentUser()
     }

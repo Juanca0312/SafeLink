@@ -55,7 +55,7 @@ struct AuthenticationView: View {
         .sheet(item: $authenticationSheetView) { sheet in
             switch sheet {
             case .login:
-                LoginEmailView()
+                LoginEmailView(authenticationViewModel: authenticationViewModel)
             case .register:
                 RegisterEmailView(authenticationViewModel: authenticationViewModel)
             }

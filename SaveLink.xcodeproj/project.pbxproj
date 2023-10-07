@@ -74,12 +74,9 @@
 		2D4B1D082AD1168500682459 /* SaveLink */ = {
 			isa = PBXGroup;
 			children = (
+				2DD486332AD1310D00E76EAB /* Auth */,
 				2D4B1D092AD1168500682459 /* SaveLinkApp.swift */,
-				2D4B1D2A2AD123D000682459 /* AuthViews */,
 				2D4B1D242AD1213F00682459 /* DismissView.swift */,
-				2D4B1D2B2AD1244C00682459 /* AuthenticationFirebaseDatasource.swift */,
-				2D4B1D2D2AD1266500682459 /* AuthenticationRepository.swift */,
-				2D4B1D2F2AD1270300682459 /* AuthenticationViewModel.swift */,
 				2D4202B92AD12D5600DCAC55 /* HomeView.swift */,
 				2D4B1D0D2AD1168600682459 /* Assets.xcassets */,
 				2D4B1D1C2AD1187F00682459 /* GoogleService-Info.plist */,
@@ -111,6 +108,25 @@
 				2D4B1D222AD120E000682459 /* RegisterEmailView.swift */,
 			);
 			path = AuthViews;
+			sourceTree = "<group>";
+		};
+		2DD486332AD1310D00E76EAB /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B1D2A2AD123D000682459 /* AuthViews */,
+				2D4B1D2F2AD1270300682459 /* AuthenticationViewModel.swift */,
+				2DD486342AD1312400E76EAB /* Repository */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		2DD486342AD1312400E76EAB /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B1D2D2AD1266500682459 /* AuthenticationRepository.swift */,
+				2D4B1D2B2AD1244C00682459 /* AuthenticationFirebaseDatasource.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
