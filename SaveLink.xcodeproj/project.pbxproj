@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4202BA2AD12D5600DCAC55 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4202B92AD12D5600DCAC55 /* HomeView.swift */; };
 		2D4B1D0A2AD1168500682459 /* SaveLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B1D092AD1168500682459 /* SaveLinkApp.swift */; };
 		2D4B1D0C2AD1168500682459 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B1D0B2AD1168500682459 /* AuthenticationView.swift */; };
 		2D4B1D0E2AD1168600682459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B1D0D2AD1168600682459 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4202B92AD12D5600DCAC55 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2D4B1D062AD1168500682459 /* SaveLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4B1D092AD1168500682459 /* SaveLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLinkApp.swift; sourceTree = "<group>"; };
 		2D4B1D0B2AD1168500682459 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				2D4B1D2B2AD1244C00682459 /* AuthenticationFirebaseDatasource.swift */,
 				2D4B1D2D2AD1266500682459 /* AuthenticationRepository.swift */,
 				2D4B1D2F2AD1270300682459 /* AuthenticationViewModel.swift */,
+				2D4202B92AD12D5600DCAC55 /* HomeView.swift */,
 				2D4B1D0D2AD1168600682459 /* Assets.xcassets */,
 				2D4B1D1C2AD1187F00682459 /* GoogleService-Info.plist */,
 				2D4B1D0F2AD1168600682459 /* Preview Content */,
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4202BA2AD12D5600DCAC55 /* HomeView.swift in Sources */,
 				2D4B1D0C2AD1168500682459 /* AuthenticationView.swift in Sources */,
 				2D4B1D2C2AD1244C00682459 /* AuthenticationFirebaseDatasource.swift in Sources */,
 				2D4B1D252AD1213F00682459 /* DismissView.swift in Sources */,

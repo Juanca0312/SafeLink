@@ -33,4 +33,8 @@ final class AuthenticationFirebaseDatasource {
             completion(.success(.init(email: email)))
         }
     }
+    
+    func logout() throws {
+        try Auth.auth().signOut()
+    }
 }

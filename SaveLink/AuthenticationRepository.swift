@@ -21,4 +21,8 @@ final class AuthenticationRepository {
     func getCurrentUser() -> User? {
         authenticationFirebaseDatasource.getCurrentUser()
     }
+    
+    func logout() throws {
+        try authenticationFirebaseDatasource.logout()
+    }
 }
